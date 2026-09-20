@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+        <a href="#" class="header__logo">Lumen</a>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__link"><a href="#">Home</a></li>
+                <li class="nav__link"><a href="#">Movies</a></li>
+                <li class="nav__link"><a href="#">Collections</a></li>
+                <li class="nav__link"><a href="#">About</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+  <div class="container hero__container">
+    <div class="hero__content">
+      <span class="hero__label">Featured Movie</span>
+      <h1 class="hero__title">Зловісні мерці у вогні 2026</h1>
+
+      <ul class="hero__meta">
+        <li class="hero__item hero__item--rating"> 75%</li>
+        <li class="hero__item">2026</li>
+        <li class="hero__item">1.5 hour</li>
+        <li class="hero__item">R</li>
+      </ul>
+
+      <p class="hero__desc">
+        Після смерті чоловіка жінка намагається знайти спокій у батьків
+        його родини, вирушаючи до їхнього усамітненого дому. Та коли
+        кожен із них поступово стає дедайтом, сімейні посиденьки обертаються
+        справжнім жахіттям. Саме тоді вона розуміє: обітниці, які вона давала
+        за життя, не зникають навіть після смерті.
+      </p>
+
+      <div class="hero__actions">
+        <button class="btn btn--primary">Watch Trailer</button>
+        <a href="#" class="btn btn--outline">Movie Details</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="movie">
+    <div class="container movie__container">
+        <div class="movie__head">
+            <picture>
+                <img src="./images/movie_poster.jpg"
+                srcset="./images/movie_poster.jpg 1x, ./images/movie_poster-2.jpg 2x"
+                alt="poster" class="movie__poster">
+            </picture>
+        </div>
+        <div class="movie__info">
+            <div class="movie__title-text">
+                <h2 class="movie__name">Dune: Part Two</h2>
+                 <div class="movie__rating">8.5</div>
+            </div>
+               <p class="movie__slug">A cinematic experience worth watching on the biggest screen possible</p>
+            <div>
+                <ul class="movie__tag-list">
+                    <li class="movie__tag"><span>Sci-Fi</span></li>
+                    <li class="movie__tag"><span>Adventure</span></li>
+                    <li class="movie__tag"><span>Horror</span></li>
+                </ul>
+                <p class="movie__desc">Dune: Part Two explores the mythic journey of Paul Atreides as he embraces his destiny among the Fremen while confronting powerful enemies and impossible choices.</p>
+                <ul class="movie__table">
+                    <li><span class="movie__table-span">Director</span>Sébastien Vaniček</li>
+                    <li><span class="movie__table-span">Released</span>2026</li>
+                    <li><span class="movie__table-span">Runtime</span>110min</li>
+                    <li><span class="movie__table-span">Country</span>USA</li>
+                    <li><span class="movie__table-span">Language</span>English</li>
+                    <li><span class="movie__table-span">Studio</span>Warner Bros</li>
+                </ul>
+                <div class="text__container">
+                    <h3 class="muvie__text">Cast</h3>
+                    <p class="muvie__subtitle">Timothée Chalamet, Zendaya, Rebecca Ferguson, Austin Butler, Florence Pugh</p>
+                </div>
+                <div>
+                    <a href="#" class="muvie__action-primary btn">Watch Now</a>
+                    <button class="muvie__action-secondary btn">Add to Watchlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="gallery">
+  <div class="container">
+    <h3 class="gallery__title">Featured Scenes</h3>
+    <p class="gallery__subtitle">A cinematic experience worth watching on the biggest screen possible.</p>
+
+    <div class="gallery__grid">
+      <picture class="gallery__item gallery__item-picture">
+        <img src="./images/galery-1.webp" alt="Featured scene 1">
+      </picture>
+
+      <picture class="gallery__item">
+        <img src="./images/galery-2.webp" alt="Featured scene 2">
+      </picture>
+
+      <picture class="gallery__item">
+        <img src="./images/galery-3.webp" alt="Featured scene 3">
+      </picture>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+    <div class="container footer__container">
+   <p class="footer__subtitle">2026 Lumen mini project</p>
+    </div>
+</footer>
+</body>
+</html>
